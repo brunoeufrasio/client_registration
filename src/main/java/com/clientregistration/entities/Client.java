@@ -6,8 +6,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import org.springframework.cglib.beans.BeanCopier.Generator;
-
 @Entity
 @Table(name = "client")
 public class Client {
